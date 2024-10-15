@@ -4,3 +4,5 @@
 - Uygulamanın endpointlerine swagger ile http://localhost:8080/swagger-ui/index.html 'den ulaşılabilir.
 - Uygulamada basit spring'e ait olan cache kullanılmıştır.
 - Uygulamada sadece service katmanları için unit testler yazılmıştır.
+- Uygulamada ayrıca genel exception yönetimi yapılmıştır.
+- Responseların belirli bir yapı da dönülmesi için genel response yapısı uygulanmıştır.
