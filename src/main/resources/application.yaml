@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: test-center
+  datasource:
+    url: jdbc:h2:mem:test_center
+    username: testcenter
+    password: testcenter
+    driverClassName: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: none
+  h2:
+    console.enabled: true
